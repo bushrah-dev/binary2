@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    background: thistle;
+}
+.container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container input{
+    padding: 8px 10px;
+    margin-left: 5px;
+    outline: none;
+}
+.btn{
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
